@@ -1,6 +1,6 @@
 """
 Password Position Calculator v1.0
-Laboratorium Elektroniki | laboratorium-elektroniki.pl
+Laboratorium Elektroniki | laboratoriumelektroniki.pl
 Author: Krystian Zarzecki
 
 Shows the exact brute-force position of any password and estimated crack time.
@@ -307,7 +307,7 @@ class PasswordPositionCalculator:
 
         # Footer
         tk.Label(P,
-                 text="Laboratorium Elektroniki  |  Password Position Calculator v1.0  |  laboratorium-elektroniki.pl",
+                 text="Laboratorium Elektroniki  |  Password Position Calculator v1.0  |  laboratoriumelektroniki.pl",
                  font=("Segoe UI", 7), bg=BG, fg=TX2).pack(pady=4)
 
         self._update_speed_label()
